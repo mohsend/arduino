@@ -1,0 +1,12 @@
+---
+layout: default
+title: {{ site.name }}
+---
+
+<div id="home">
+  <ul class="posts">
+    {% for post in site.pages %}
+      {{ post.content }}
+    {% endfor %}
+  </ul>
+</div>

@@ -45,10 +45,10 @@ layout: page
 
 | مقدار  | تعداد | [کد رنگ](http://www.electronics2000.co.uk/calc/resistor-code-calculator.php) |
 | ------ | -------- | ---------- |
-| ۲۲۰ Ω  | ۴۰       | Red Red Brown |
-| ۵۶۰ Ω  | ۱۰       | Green Blue Brown |
-| ۱ kΩ   | ۱۰       | Brown Black Red |
-| ۴.۶ kΩ | ۲۰       | Yellow Violet Red |
-| ۱۰ kΩ  | ۲۰       | Brown Black Orange |
-| ۱ MΩ   | ۱۰       | Brown Black Green |
-| ۱۰ MΩ  | ۱۰       | Brown Black Blue |
+| ۲۲۰ Ω  | ۴۰       | قرمز قرمز قهوه‌ای |
+| ۵۶۰ Ω  | ۱۰       | سبز آبی قهوه‌ای |
+| ۱ kΩ   | ۱۰       | قهوه‌ای مشکی قرمز |
+| ۴.۶ kΩ | ۲۰       | زرد بنفش قرمز |
+| ۱۰ kΩ  | ۲۰       | قهوه‌ای مشکی نارنجی |
+| ۱ MΩ   | ۱۰       | قهوه‌ای مشکی سبز |
+| ۱۰ MΩ  | ۱۰       | قهوه‌ای مشکی آبی |

@@ -11,7 +11,7 @@ layout: page
 
 | قطعه                    | تعداد         | فروشگاه   |
 | ---------------------------- | ---------------- | ------- |
-| آردوآینو اونو   | ۱                | [AR](http://shop.aftabrayaneh.com/Arduino_Boards/ARDUINO_CH340G_UNO.htmlhttp://shop.aftabrayaneh.com/Arduino_Boards/ARDUINO_CH340G_UNO.html)* |
+| آردوآینو اونو   | ۱                | [AR](http://shop.aftabrayaneh.com/Arduino_UNO_R3.html)* |
 | برد بورد     | ۱                | [AR](http://shop.aftabrayaneh.com/Peripherals/Pcb/Breadboard_MB102.html) |
 | سیم دو سر نری     | ۴۰               | [AR](http://shop.aftabrayaneh.com/Peripherals/Cable_Jumperwire/Wire_Dupont_MM.html) |
 | سیم نری-مادگی   | ۳۰               | [AR](http://shop.aftabrayaneh.com/Peripherals/Cable_Jumperwire/Wire_Dupont_MF.html) |

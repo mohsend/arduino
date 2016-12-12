@@ -1,7 +1,7 @@
 # Setup
 title:        'آردوآینو'
 tagline:      'ارائه برای کلاس ریزپردازنده'
-baseurl:      ""
+baseurl:      "/arduino"
 paginate:     1
 
 # About/contact

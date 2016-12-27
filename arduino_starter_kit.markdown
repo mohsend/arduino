@@ -22,7 +22,7 @@ layout: page
 | RGB LED | ۴ | [AR](http://shop.aftabrayaneh.com/Electronic_Parts/LED/RGB_LED.html) |
 | سون سگمنت | ۱ | [AR (w/ driver)](http://shop.aftabrayaneh.com/74HC59-4D_Seven_Segment.html)
 | پتانسیومتر یک و ده کیلو اهم     | یکی از هرکدام | [AR](http://shop.aftabrayaneh.com/POT10K_10K_Potentiometer.html) |
-| فوتوسل | ۲ | [AR](hop.aftabrayaneh.com/Sensor_Photoresistor_5528.html) |
+| فوتوسل | ۲ | [AR](shop.aftabrayaneh.com/Sensor_Photoresistor_5528.html) |
 | زنگ اخبار منفعل | ۱ | [AR](http://shop.aftabrayaneh.com/Passive_Buzzer.html) |
 | صفحه نمایش نوکیا                    | ۱                | [AR](http://shop.aftabrayaneh.com/LCD_Monitors/Displays/NOKIA_5110-W_Arduino_LCD.htmlhttp://shop.aftabrayaneh.com/LCD_Monitors/Displays/NOKIA_5110-W_Arduino_LCD.html) |
 | سنسور های مختلف | -- | [AR](http://shop.aftabrayaneh.com/Sensors) |

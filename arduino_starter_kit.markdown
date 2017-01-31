@@ -7,48 +7,254 @@ layout: page
 
 ## قطعات اصلی
 
-ده مورد اول به شدت توصیه می‌شود. باقی دلخواه است. با توجه به پروژه ای که در سر دارید قطعات مورد نیاز تفاوت میکند. گشتی در سایت های فروش بزنید.
+ده مورد اول شدیدا توصیه می‌شود. باقی دلخواه است. با توجه به پروژه ای که در سر دارید قطعات مورد نیاز تفاوت میکند. گشتی در سایت های فروش بزنید.
 
-| قطعه                    | تعداد         | فروشگاه   |
-| ---------------------------- | ---------------- | ------- |
-| آردوآینو اونو   | ۱                | [AR](http://shop.aftabrayaneh.com/Arduino_UNO_R3.html)* |
-| برد بورد     | ۱                | [AR](http://shop.aftabrayaneh.com/Peripherals/Pcb/Breadboard_MB102.html) |
-| سیم دو سر نری     | ۴۰               | [AR](http://shop.aftabrayaneh.com/Peripherals/Cable_Jumperwire/Wire_Dupont_MM.html) |
-| سیم نری-مادگی   | ۳۰               | [AR](http://shop.aftabrayaneh.com/Peripherals/Cable_Jumperwire/Wire_Dupont_MF.html) |
-| سیم دو سر مادگی | ۲۰               | [AR](http://shop.aftabrayaneh.com/Peripherals/Cable_Jumperwire/Wire_Dupont_FF.html) |
-| مقاومت            | [لیست](#resistors-table)| -- |
-| دکمه فشاری                 | ۱۵               | [AR](http://shop.aftabrayaneh.com/Micro_Switch.html) |
-| LED (رنگ های مختلف)        | ۱۰ تا از هر رنگ | -- |
-| RGB LED | ۴ | [AR](http://shop.aftabrayaneh.com/Electronic_Parts/LED/RGB_LED.html) |
-| سون سگمنت | ۱ | [AR (w/ driver)](http://shop.aftabrayaneh.com/74HC59-4D_Seven_Segment.html)
-| پتانسیومتر یک و ده کیلو اهم     | یکی از هرکدام | [AR](http://shop.aftabrayaneh.com/POT10K_10K_Potentiometer.html) |
-| فوتوسل | ۲ | [AR](shop.aftabrayaneh.com/Sensor_Photoresistor_5528.html) |
-| زنگ اخبار منفعل | ۱ | [AR](http://shop.aftabrayaneh.com/Passive_Buzzer.html) |
-| صفحه نمایش نوکیا                    | ۱                | [AR](http://shop.aftabrayaneh.com/LCD_Monitors/Displays/NOKIA_5110-W_Arduino_LCD.htmlhttp://shop.aftabrayaneh.com/LCD_Monitors/Displays/NOKIA_5110-W_Arduino_LCD.html) |
-| سنسور های مختلف | -- | [AR](http://shop.aftabrayaneh.com/Sensors) |
-| LED matrix | ۱ | [AR](http://shop.aftabrayaneh.com/MAX7219_Dot_Matrix.html) |
-| سیم سوسماری | ۴ | [AR](http://shop.aftabrayaneh.com/Peripherals/Cable_Jumperwire/Alligator_Clip_Cable.html) |
-| Power MOSFET | ۲ | [AR](http://shop.aftabrayaneh.com/Mosfet_Transistor_IRF520.html) |
-| برد بورد کوچک     | ۱                | [AR](http://shop.aftabrayaneh.com/Peripherals/Pcb/Breadboard_MB102_Mini.html) |
-| پین هدر | ۳ | AR: [ male](http://shop.aftabrayaneh.com/Electronic_Parts/Electronic_Parts_Other/401_Mail_Pin_Header.html) / [female](http://shop.aftabrayaneh.com/Electronic_Parts/Electronic_Parts_Other/401_Female_Pin_Header.html) |
-| ماژول میکرو اس‌دی | ۱ | [AR](http://shop.aftabrayaneh.com/Micro_SD_TF_Card_Module_H5A2.html) |
-| موتور های الکتریکی | -- | -- |
-| رله | ۱ | [AR](http://shop.aftabrayaneh.com/2Chanel_5v_relay.html) |
-| برد بورد بسیار کوچک| ۵                | [AR](http://shop.aftabrayaneh.com/Peripherals/Pcb/Mini_Breadboard_SYB170.html) |
-| PCB Prototype Board pack     | ۱                | [AR](http://shop.aftabrayaneh.com/Peripherals/Pcb/Prototype_PCB_4Size.html) |
-| ماژول نگهدارنده زمان | ۱ | [AR](http://shop.aftabrayaneh.com/Clock_Time_DS1307.html) |
-| جعبه چوبی آردوآینو      | ۱                | [AR](http://shop.aftabrayaneh.com/Arduino_Boards/Arduino_UNO_Wooden_Case.html) |
+<table>
+  <thead>
+    <tr>
+      <th>قطعه</th>
+      <th>کد قطعه یا نام انگلیسی</th>
+      <th>تعداد</th>
+      <th>فروشگاه</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>آردوآینو اونو</td>
+      <td> Arduino Uno </td>
+      <td>۱</td>
+      <td><a href="http://shop.aftabrayaneh.com/Arduino_UNO_R3.html">آر</a>* <a href="http://microlineic.com/index.php?productID=1983">مل</a>** <a href="https://www.adafruit.com/products/50">اف</a>***</td>
+    </tr>
+    <tr>
+      <td>برد بورد</td>
+      <td> Breadboard </td>
+      <td>۱</td>
+      <td><a href="http://shop.aftabrayaneh.com/Peripherals/Pcb/Breadboard_MB102.html">آر</a> <a href="https://www.adafruit.com/products/239">اف</a></td>
+    </tr>
+    <tr>
+      <td>سیم دو سر نری</td>
+      <td> Male/Male Jumper Wire </td>
+      <td>۴۰</td>
+      <td><a href="http://shop.aftabrayaneh.com/Peripherals/Cable_Jumperwire/Wire_Dupont_MM.html">آر</a></td>
+    </tr>
+    <tr>
+      <td>سیم نری-مادگی</td>
+      <td> Male/Female Jumper Wir </td>
+      <td>۳۰</td>
+      <td><a href="http://shop.aftabrayaneh.com/Peripherals/Cable_Jumperwire/Wire_Dupont_MF.html">آر</a></td>
+    </tr>
+    <tr>
+      <td>سیم دو سر مادگی</td>
+      <td> Female/Female Jumper Wir </td>
+      <td>۲۰</td>
+      <td><a href="http://shop.aftabrayaneh.com/Peripherals/Cable_Jumperwire/Wire_Dupont_FF.html">آر</a></td>
+    </tr>
+    <tr>
+      <td>مقاومت</td>
+      <td> Resistors </td>
+      <td><a href="#section-1">لیست</a></td>
+      <td><a href="http://microlineic.com/index.php?categoryID=9">مل</a></td>
+    </tr>
+    <tr>
+      <td>دکمه فشاری</td>
+      <td> Tactile Switch </td>
+      <td>۱۵</td>
+      <td><a href="http://shop.aftabrayaneh.com/Micro_Switch.html">آر</a></td>
+    </tr>
+    <tr>
+      <td>ال‌ای‌دی (رنگ های مختلف)</td>
+      <td> LED </td>
+      <td>۱۰ تا از هر رنگ</td>
+      <td> – </td>
+    </tr>
+    <tr>
+      <td>دیود یکسوساز</td>
+      <td>1N400x</td>
+      <td>۱۰</td>
+      <td><a href="http://microlineic.com/index.php?productID=540">مل</a></td>
+    </tr>
+    <tr>
+      <td>دیود سیگنال</td>
+      <td>1N4148</td>
+      <td>۱۰</td>
+      <td><a href="http://microlineic.com/index.php?productID=538">مل</a></td>
+    </tr>
+    <tr>
+      <td>خازن</td>
+      <td> Capacitors </td>
+      <td><a href="#section-2">لیست</a></td>
+      <td> – </td>
+    </tr>
+    <tr>
+      <td>ال‌ای‌دی سه رنگ</td>
+      <td> RGB LED </td>
+      <td>۴</td>
+      <td><a href="http://shop.aftabrayaneh.com/Electronic_Parts/LED/RGB_LED.html">آر</a></td>
+    </tr>
+    <tr>
+      <td>سون سگمنت</td>
+      <td> Seven Segment </td>
+      <td>۱</td>
+      <td><a href="http://shop.aftabrayaneh.com/74HC59-4D_Seven_Segment.html">آر (با درایور)</a></td>
+    </tr>
+    <tr>
+      <td>پتانسیومتر یک و ده کیلو اهم</td>
+      <td> Potantiometer </td>
+      <td>یکی از هرکدام</td>
+      <td><a href="http://shop.aftabrayaneh.com/POT10K_10K_Potentiometer.html">آر</a></td>
+    </tr>
+    <tr>
+      <td>فوتوسل</td>
+      <td> Photocell </td>
+      <td>۲</td>
+      <td><a href="shop.aftabrayaneh.com/Sensor_Photoresistor_5528.html">آر</a></td>
+    </tr>
+    <tr>
+      <td>زنگ اخبار منفعل</td>
+      <td> Pizzo Buzzer </td>
+      <td>۱</td>
+      <td><a href="http://shop.aftabrayaneh.com/Passive_Buzzer.html">آر</a> <a href="https://www.adafruit.com/products/338">اف</a></td>
+    </tr>
+    <tr>
+      <td>صفحه نمایش نوکیا</td>
+      <td>Nokia 5110 LCD</td>
+      <td>۱</td>
+      <td><a href="http://shop.aftabrayaneh.com/LCD_Monitors/Displays/NOKIA_5110-W_Arduino_LCD.html">آر</a></td>
+    </tr>
+    <tr>
+      <td>سنسور های مختلف</td>
+      <td> Sensors </td>
+      <td> – </td>
+      <td><a href="http://shop.aftabrayaneh.com/Sensors">آر</a></td>
+    </tr>
+    <tr>
+      <td>LED matrix</td>
+      <td>MAX7219</td>
+      <td>۱</td>
+      <td><a href="http://shop.aftabrayaneh.com/MAX7219_Dot_Matrix.html">آر</a></td>
+    </tr>
+    <tr>
+      <td>سیم سوسماری</td>
+      <td> Aligator Clip </td>
+      <td>۴</td>
+      <td><a href="http://shop.aftabrayaneh.com/Peripherals/Cable_Jumperwire/Alligator_Clip_Cable.html">آر</a></td>
+    </tr>
+    <tr>
+      <td>ترانزیستور قدرت</td>
+      <td>TIP122</td>
+      <td>۵</td>
+      <td><a href="http://microlineic.com/index.php?productID=401">مل</a></td>
+    </tr>
+    <tr>
+      <td>برد بورد کوچک</td>
+      <td> Half-size Breadboard</td>
+      <td>۱</td>
+      <td><a href="http://shop.aftabrayaneh.com/Peripherals/Pcb/Breadboard_MB102_Mini.html">آر</a> <a href="https://www.adafruit.com/products/64">اف</a></td>
+    </tr>
+    <tr>
+      <td>پین هدر</td>
+      <td> Pin Header </td>
+      <td>۳</td>
+      <td>آر: <a href="http://shop.aftabrayaneh.com/Electronic_Parts/Electronic_Parts_Other/401_Mail_Pin_Header.html"> نری</a> / <a href="http://shop.aftabrayaneh.com/Electronic_Parts/Electronic_Parts_Other/401_Female_Pin_Header.html">مادگی</a></td>
+    </tr>
+    <tr>
+      <td>ماژول میکرو اس‌دی</td>
+      <td>H5A2</td>
+      <td>۱</td>
+      <td><a href="http://shop.aftabrayaneh.com/Micro_SD_TF_Card_Module_H5A2.html">آر</a></td>
+    </tr>
+    <tr>
+      <td>موتور های الکتریکی</td>
+      <td> Electric Motors </td>
+      <td> – </td>
+      <td> – </td>
+    </tr>
+    <tr>
+      <td>رله پنج ولت</td>
+      <td> – </td>
+      <td>۱</td>
+      <td><a href="http://shop.aftabrayaneh.com/2Chanel_5v_relay.html">آر</a></td>
+    </tr>
+    <tr>
+      <td>برد بورد بسیار کوچک</td>
+      <td> Tiny Breadboard</td>
+      <td>۵</td>
+      <td><a href="http://shop.aftabrayaneh.com/Peripherals/Pcb/Mini_Breadboard_SYB170.html">آر</a> <a href="https://www.adafruit.com/products/65">اف</a></td>
+    </tr>
+    <tr>
+      <td>پک برد پی‌سی‌بی</td>
+      <td>PCB Prototype Board pack</td>
+      <td>۱</td>
+      <td><a href="http://shop.aftabrayaneh.com/Peripherals/Pcb/Prototype_PCB_4Size.html">آر</a></td>
+    </tr>
+    <tr>
+      <td>ماژول نگهدارنده زمان</td>
+      <td>DS1307 RTC Module</td>
+      <td>۱</td>
+      <td><a href="http://shop.aftabrayaneh.com/Clock_Time_DS1307.html">آر</a></td>
+    </tr>
+    <tr>
+      <td>جعبه چوبی آردوآینو</td>
+      <td> – </td>
+      <td>۱</td>
+      <td><a href="http://shop.aftabrayaneh.com/Arduino_Boards/Arduino_UNO_Wooden_Case.html">آر</a></td>
+    </tr>
+  </tbody>
+</table>
 
-\* [آفتاب‌رایانه](http://aftabrayaneh.com) فروشگاه اینترنتی قطعات الکترونیکی آماتور در ایران است.
+\* [آفتاب‌رایانه](http://aftabrayaneh.com) فروشگاه اینترنتی قطعات الکترونیکی در ایران (شیراز) است.  
+\*\* [میکرولاین آی‌سی](http://microlineic.com) فروشگاه اینترنتی قطعات الکترونیکی در ایران (تهران) است.  
+\*\*\* [ایدافروت](https://www.adafruit.com) تولیدکننده و فروشگاه اینترنتی قطعات الکترونیکی در ایالات متحده (نیویورک) است. منبع بسیار خوبی برای دیتاشیت ها، آموزش ها و... است.    
 
 ## جدول مقاومت ها
 
-| مقدار  | تعداد | [کد رنگ](http://www.electronics2000.co.uk/calc/resistor-code-calculator.php) |
-| ------ | -------- | ---------- |
-| ۲۲۰ Ω  | ۴۰       | قرمز قرمز قهوه‌ای |
-| ۵۶۰ Ω  | ۱۰       | سبز آبی قهوه‌ای |
-| ۱ kΩ   | ۱۰       | قهوه‌ای مشکی قرمز |
-| ۴.۶ kΩ | ۲۰       | زرد بنفش قرمز |
-| ۱۰ kΩ  | ۲۰       | قهوه‌ای مشکی نارنجی |
-| ۱ MΩ   | ۱۰       | قهوه‌ای مشکی سبز |
-| ۱۰ MΩ  | ۱۰       | قهوه‌ای مشکی آبی |
+<table>
+  <thead>
+    <tr>
+      <th>مقدار</th>
+      <th>تعداد</th>
+      <th><a href="http://www.electronics2000.co.uk/calc/resistor-code-calculator.php">کد رنگ</a></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>۲۲۰ Ω</td>
+      <td>۴۰</td>
+      <td>قرمز قرمز قهوه‌ای</td>
+    </tr>
+    <tr>
+      <td>۵۶۰ Ω</td>
+      <td>۱۰</td>
+      <td>سبز آبی قهوه‌ای</td>
+    </tr>
+    <tr>
+      <td>۱ kΩ</td>
+      <td>۱۰</td>
+      <td>قهوه‌ای مشکی قرمز</td>
+    </tr>
+    <tr>
+      <td>۴.۶ kΩ</td>
+      <td>۲۰</td>
+      <td>زرد بنفش قرمز</td>
+    </tr>
+    <tr>
+      <td>۱۰ kΩ</td>
+      <td>۲۰</td>
+      <td>قهوه‌ای مشکی نارنجی</td>
+    </tr>
+    <tr>
+      <td>۱ MΩ</td>
+      <td>۱۰</td>
+      <td>قهوه‌ای مشکی سبز</td>
+    </tr>
+    <tr>
+      <td>۱۰ MΩ</td>
+      <td>۱۰</td>
+      <td>قهوه‌ای مشکی آبی</td>
+    </tr>
+  </tbody>
+</table>
+
+## جدول خازن ها
+
+

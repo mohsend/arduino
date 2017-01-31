@@ -6,7 +6,7 @@ Repository for Arduino presentation, Micro-controllers class, IAUCTB, 2016.
 
 ## Get Started Quickly with Arduino™
 
-- [Arduino Starter kit shop list](arduino_starter_kit.md)  
+- [Arduino Starter kit shop list](arduino_starter_kit.markdown)  
 - [Arduino.cc](http://arduino.cc) (English)  
 - [Arduino.ir](http://arduino.ir) (Persian)  
 - [Shop tools and boards online](http://aftabrayaneh.com/) (Iran, Persian)  

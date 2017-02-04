@@ -29,7 +29,7 @@ layout: page
       <td>برد بورد</td>
       <td> Breadboard </td>
       <td>۱</td>
-      <td><a href="http://shop.aftabrayaneh.com/Peripherals/Pcb/Breadboard_MB102.html">آر</a> <a href="https://www.adafruit.com/products/239">اف</a></td>
+      <td><a href="http://shop.aftabrayaneh.com/Peripherals/Pcb/Breadboard_MB102.html">آر</a> <a href="http://microlineic.com/index.php?productID=882">مل</a> <a href="https://www.adafruit.com/products/239">اف</a></td>
     </tr>
     <tr>
       <td>سیم دو سر نری</td>
@@ -65,24 +65,6 @@ layout: page
       <td>ال‌ای‌دی (رنگ های مختلف)</td>
       <td> LED </td>
       <td>۱۰ تا از هر رنگ</td>
-      <td> – </td>
-    </tr>
-    <tr>
-      <td>دیود یکسوساز</td>
-      <td>1N400x</td>
-      <td>۱۰</td>
-      <td><a href="http://microlineic.com/index.php?productID=540">مل</a></td>
-    </tr>
-    <tr>
-      <td>دیود سیگنال</td>
-      <td>1N4148</td>
-      <td>۱۰</td>
-      <td><a href="http://microlineic.com/index.php?productID=538">مل</a></td>
-    </tr>
-    <tr>
-      <td>خازن</td>
-      <td> Capacitors </td>
-      <td><a href="#section-2">لیست</a></td>
       <td> – </td>
     </tr>
     <tr>
@@ -170,16 +152,58 @@ layout: page
       <td> – </td>
     </tr>
     <tr>
-      <td>رله پنج ولت</td>
-      <td> – </td>
+      <td>ماژول رله پنج ولت</td>
+      <td> 5v Relay Module</td>
       <td>۱</td>
-      <td><a href="http://shop.aftabrayaneh.com/2Chanel_5v_relay.html">آر</a></td>
+      <td><a href="http://shop.aftabrayaneh.com/2Chanel_5v_relay.html">آر</a> <a href="http://microlineic.com/index.php?productID=2017">مل</a></td>
+    </tr>
+    <tr>
+      <td>تایمر ۵۵۵</td>
+      <td> LM555 </td>
+      <td>۴</td>
+      <td><a href="http://microlineic.com/index.php?productID=1692">مل</a></td>
+    </tr>
+    <tr>
+      <td>دیود یکسوساز</td>
+      <td>1N400x</td>
+      <td>۱۰</td>
+      <td><a href="http://microlineic.com/index.php?productID=540">مل</a></td>
+    </tr>
+    <tr>
+      <td>دیود سیگنال</td>
+      <td>1N4148</td>
+      <td>۱۰</td>
+      <td><a href="http://microlineic.com/index.php?productID=538">مل</a></td>
+    </tr>
+    <tr>
+      <td>خازن</td>
+      <td> Capacitors </td>
+      <td><a href="#section-2">لیست</a></td>
+      <td><a href="http://microlineic.com/index.php?categoryID=27">مل</a></td>
+    </tr>
+    <tr>
+      <td>آمپلیفایر</td>
+      <td> LM324 </td>
+      <td>۱</td>
+      <td><a href="http://microlineic.com/index.php?productID=1695">مل</a></td>
+    </tr>
+    <tr>
+      <td>رگولاتور قابل تنظیم</td>
+      <td> LM317 </td>
+      <td>۱</td>
+      <td><a href="http://microlineic.com/index.php?productID=1693">مل</a></td>
     </tr>
     <tr>
       <td>برد بورد بسیار کوچک</td>
       <td> Tiny Breadboard</td>
       <td>۵</td>
       <td><a href="http://shop.aftabrayaneh.com/Peripherals/Pcb/Mini_Breadboard_SYB170.html">آر</a> <a href="https://www.adafruit.com/products/65">اف</a></td>
+    </tr>
+    <tr>
+      <td>هویه ۴۰وات</td>
+      <td>Soldering Iron 40W</td>
+      <td>۱</td>
+      <td><a href="http://shop.aftabrayaneh.com/TLN35_Solder_35W.html">آر</a> <a href="http://microlineic.com/index.php?productID=282">مل</a></td>
     </tr>
     <tr>
       <td>پک برد پی‌سی‌بی</td>
@@ -257,4 +281,73 @@ layout: page
 
 ## جدول خازن ها
 
+### خازن های سرامیکی 
 
+<table>
+  <thead>
+    <tr>
+      <th>ظرفیت</th>
+      <th>تعداد</th>
+      <th><a href="http://www.radio-electronics.com/info/data/capacitor/capacitor-markings.php">کپ مارک</a></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>10pF</td>
+      <td>5</td>
+      <td>100</td>
+    </tr>
+    <tr>
+      <td>100pF</td>
+      <td>5</td>
+      <td>101</td>
+    </tr>
+    <tr>
+      <td>1nF</td>
+      <td>5</td>
+      <td>102</td>
+    </tr>
+    <tr>
+      <td>10nF</td>
+      <td>5</td>
+      <td>103</td>
+    </tr>
+    <tr>
+      <td>0.1&micro;F</td>
+      <td>5</td>
+      <td>104</td>
+    </tr>
+    <tr>
+      <td>1&micro;F</td>
+      <td>5</td>
+      <td>105</td>
+    </tr>
+  </tbody>
+</table>
+
+### خازن های الکترولیتی 
+
+دقت داشته باشید که این خازن ها تا ولتاژ خاصی کار میکنند و اگر ولتاژ بیشتری به آن‌ها اعمال شود منفجر میشود. موقع خرید دقت کنید. برای اطمینان ولتاژ ریتینگ ۲۵ ولت یا بیشتر برای کار با آردوآینو کافی است. 
+
+<table>
+  <thead>
+    <tr>
+      <th>ظرفیت</th>
+      <th>تعداد</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>10&micro;F</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <td>100&micro;F</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <td>500&micro;F</td>
+      <td>5</td>
+    </tr>
+  </tbody>
+</table>

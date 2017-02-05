@@ -1,6 +1,6 @@
 # Setup
-title:        'آردوآینو'
-tagline:      'ارائه برای کلاس ریزپردازنده'
+title:        'ارائه آردوآینو'
+tagline:      'برای کلاس ریزپردازنده'
 baseurl:      "/arduino"
 paginate:     1
 
@@ -12,6 +12,7 @@ author:
 # Gems
 gems:
   - jekyll-paginate
-
+  - jekyll-seo-tag
+ 
 #Others
 markdown: kramdown

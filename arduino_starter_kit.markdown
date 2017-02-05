@@ -32,22 +32,10 @@ layout: page
       <td><a href="http://shop.aftabrayaneh.com/Peripherals/Pcb/Breadboard_MB102.html">آر</a> <a href="http://microlineic.com/index.php?productID=882">مل</a> <a href="https://www.adafruit.com/products/239">اف</a></td>
     </tr>
     <tr>
-      <td>سیم دو سر نری</td>
-      <td> Male/Male Jumper Wire </td>
-      <td>۴۰</td>
-      <td><a href="http://shop.aftabrayaneh.com/Peripherals/Cable_Jumperwire/Wire_Dupont_MM.html">آر</a></td>
-    </tr>
-    <tr>
-      <td>سیم نری-مادگی</td>
-      <td> Male/Female Jumper Wir </td>
-      <td>۳۰</td>
-      <td><a href="http://shop.aftabrayaneh.com/Peripherals/Cable_Jumperwire/Wire_Dupont_MF.html">آر</a></td>
-    </tr>
-    <tr>
-      <td>سیم دو سر مادگی</td>
-      <td> Female/Female Jumper Wir </td>
-      <td>۲۰</td>
-      <td><a href="http://shop.aftabrayaneh.com/Peripherals/Cable_Jumperwire/Wire_Dupont_FF.html">آر</a></td>
+      <td>بسته سیم بردبورد</td>
+      <td>Breadboarding Wire Bundle</td>
+      <td>۱</td>
+      <td><a href="http://shop.aftabrayaneh.com/breadboard_jumper_wire_kit_140pcs.html">آر</a> <a href="https://www.adafruit.com/products/153">اف</a></td>
     </tr>
     <tr>
       <td>مقاومت</td>
@@ -65,7 +53,7 @@ layout: page
       <td>ال‌ای‌دی (رنگ های مختلف)</td>
       <td> LED </td>
       <td>۱۰ تا از هر رنگ</td>
-      <td> – </td>
+      <td><a href="http://microlineic.com/index.php?categoryID=13">مل</a></td>
     </tr>
     <tr>
       <td>ال‌ای‌دی سه رنگ</td>
@@ -107,13 +95,25 @@ layout: page
       <td>سنسور های مختلف</td>
       <td> Sensors </td>
       <td> – </td>
-      <td><a href="http://shop.aftabrayaneh.com/Sensors">آر</a></td>
+      <td><a href="http://shop.aftabrayaneh.com/Sensors">آر</a> <a href="http://microlineic.com/index.php?categoryID=55">مل</a></td>
     </tr>
     <tr>
-      <td>LED matrix</td>
-      <td>MAX7219</td>
-      <td>۱</td>
-      <td><a href="http://shop.aftabrayaneh.com/MAX7219_Dot_Matrix.html">آر</a></td>
+      <td>سیم دو سر نری</td>
+      <td> Male/Male Jumper Wire </td>
+      <td>۳۰</td>
+      <td><a href="http://shop.aftabrayaneh.com/Peripherals/Cable_Jumperwire/Wire_Dupont_MM.html">آر</a></td>
+    </tr>
+    <tr>
+      <td>سیم نری-مادگی</td>
+      <td> Male/Female Jumper Wire </td>
+      <td>۲۰</td>
+      <td><a href="http://shop.aftabrayaneh.com/Peripherals/Cable_Jumperwire/Wire_Dupont_MF.html">آر</a></td>
+    </tr>
+    <tr>
+      <td>سیم دو سر مادگی</td>
+      <td> Female/Female Jumper Wire </td>
+      <td>۲۰</td>
+      <td><a href="http://shop.aftabrayaneh.com/Peripherals/Cable_Jumperwire/Wire_Dupont_FF.html">آر</a></td>
     </tr>
     <tr>
       <td>سیم سوسماری</td>
@@ -128,6 +128,12 @@ layout: page
       <td><a href="http://microlineic.com/index.php?productID=401">مل</a></td>
     </tr>
     <tr>
+    <tr>
+      <td>LED matrix</td>
+      <td>MAX7219</td>
+      <td>۱</td>
+      <td><a href="http://shop.aftabrayaneh.com/MAX7219_Dot_Matrix.html">آر</a> <a href="http://microlineic.com/index.php?productID=2012">مل</a></td>
+    </tr>
       <td>برد بورد کوچک</td>
       <td> Half-size Breadboard</td>
       <td>۱</td>

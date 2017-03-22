@@ -29,7 +29,7 @@ layout: page
       <td>برد بورد</td>
       <td> Breadboard </td>
       <td>۱</td>
-      <td><a href="http://shop.aftabrayaneh.com/Peripherals/Pcb/Breadboard_MB102.html">آر</a> <a href="http://microlineic.com/index.php?productID=882">مل</a> <a href="https://www.adafruit.com/products/239">اف</a></td>
+      <td><a href="http://shop.aftabrayaneh.com/Peripherals/Pcb/Breadboard_MB102.html">آر</a> <a href="http://microlineic.com/index.php?productID=882">مل</a> <a href="https://www.adafruit.com/products/239">اف</a> <a href="http://www.jahankitshop.com/market/d/6643">جک</a></td>
     </tr>
     <tr>
       <td>بسته سیم بردبورد</td>
@@ -131,13 +131,13 @@ layout: page
       <td>ترانزیستور PNP</td>
       <td>2N3906</td>
       <td>۱۰</td>
-      <td></td>
+      <td><a href="http://jaamejamelec.ir/index.php?route=product/product&product_id=2337">جج</a>*****</td>
     </tr>
     <tr>
       <td>ترانزیستور NPN</td>
       <td>2N3904</td>
       <td>۱۰</td>
-      <td></td>
+      <td><a href="http://jaamejamelec.ir/index.php?route=product/product&product_id=2154">جج</a></td>
     </tr>
     <tr>
     <tr>
@@ -150,13 +150,13 @@ layout: page
       <td>شیفت‌رجیستر سریال به موازی</td>
       <td>74HC595</td>
       <td>۲</td>
-      <td></td>
+      <td><a href="http://jaamejamelec.ir/index.php?route=product/product&product_id=505">جج</a></td>
     </tr>
     <tr>
       <td>شیفت‌رجیستر موازی به سریال</td>
       <td>CD4021B</td>
       <td>۴</td>
-      <td></td>
+      <td><a href="http://jaamejamelec.ir/index.php?route=product/product&product_id=87"> جج </a></td>
     </tr>
       <td>برد بورد کوچک</td>
       <td> Half-size Breadboard</td>
@@ -260,6 +260,7 @@ layout: page
 \*\* [میکرولاین آی‌سی](http://microlineic.com) فروشگاه اینترنتی قطعات الکترونیکی در ایران (تهران، پاساژ عباسیان) است.  
 \*\*\* [جهان‌کیت](http://www.jahankitshop.com/) فروشگاه اینترنتی قطعات الکترونیکی در ایران (تهران، پاساژ امجد) است.  
 \*\*\*\* [ایدافروت](https://www.adafruit.com) تولیدکننده و فروشگاه اینترنتی قطعات الکترونیکی در ایالات متحده (نیویورک) است. منبع بسیار خوبی برای دیتاشیت ها، آموزش ها و... است.  
+\*\*\*\*\*[جام جم الکترونیک](http://jaamejamelec.ir/) فروشگاه اینترنتی قطعات الکترونیکی در ایران (تهران، پاساژ امجد) است. 
 
 ## جدول مقاومت ها
 

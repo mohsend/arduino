@@ -131,7 +131,7 @@ layout: page
       <td>ترانزیستور PNP</td>
       <td>2N3906</td>
       <td>۱۰</td>
-      <td><a href="http://jaamejamelec.ir/index.php?route=product/product&product_id=2337">جج</a>*****</td>
+      <td><a href="http://jaamejamelec.ir/index.php?route=product/product&product_id=2337">جج</a>\*\*\*\*\*</td>
     </tr>
     <tr>
       <td>ترانزیستور NPN</td>
@@ -156,7 +156,7 @@ layout: page
       <td>شیفت‌رجیستر موازی به سریال</td>
       <td>CD4021B</td>
       <td>۴</td>
-      <td><a href="http://jaamejamelec.ir/index.php?route=product/product&product_id=87&search=4021"> جج </a></td>
+      <td><a href="http://jaamejamelec.ir/index.php?route=product/product&product_id=87"> جج </a></td>
     </tr>
       <td>برد بورد کوچک</td>
       <td> Half-size Breadboard</td>

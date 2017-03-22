@@ -131,13 +131,13 @@ layout: page
       <td>ترانزیستور PNP</td>
       <td>2N3906</td>
       <td>۱۰</td>
-      <td></td>
+      <td><a href="http://jaamejamelec.ir/index.php?route=product/product&product_id=2337">جج</a></td>
     </tr>
     <tr>
       <td>ترانزیستور NPN</td>
       <td>2N3904</td>
       <td>۱۰</td>
-      <td></td>
+      <td><a href="http://jaamejamelec.ir/index.php?route=product/product&product_id=2154">جج</a></td>
     </tr>
     <tr>
     <tr>

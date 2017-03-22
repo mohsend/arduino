@@ -7,7 +7,7 @@ layout: page
 
 ## قطعات اصلی
 
-ده مورد اول شدیدا توصیه می‌شود. باقی دلخواه است. با توجه به پروژه ای که در سر دارید قطعات مورد نیاز تفاوت میکند. گشتی در سایت های فروش بزنید.
+دوازده مورد اول شدیدا توصیه می‌شود، باقی دلخواه است. با توجه به پروژه ای که در سر دارید قطعات مورد نیاز تفاوت میکند. گشتی در سایت های فروش بزنید.
 
 <table>
   <thead>
@@ -23,7 +23,7 @@ layout: page
       <td>آردوآینو اونو</td>
       <td> Arduino Uno </td>
       <td>۱</td>
-      <td><a href="http://shop.aftabrayaneh.com/Arduino_UNO_R3.html">آر</a>* <a href="http://microlineic.com/index.php?productID=1983">مل</a>** <a href="https://www.adafruit.com/products/50">اف</a>***</td>
+      <td><a href="http://shop.aftabrayaneh.com/Arduino_UNO_R3.html">آر</a>* <a href="http://microlineic.com/index.php?productID=1983">مل</a>** <a href="http://www.jahankitshop.com/market/d/6589">جک</a>*** <a href="https://www.adafruit.com/products/50">اف</a>****</td>
     </tr>
     <tr>
       <td>برد بورد</td>
@@ -128,11 +128,35 @@ layout: page
       <td><a href="http://microlineic.com/index.php?productID=401">مل</a></td>
     </tr>
     <tr>
+      <td>ترانزیستور PNP</td>
+      <td>2N3906</td>
+      <td>۱۰</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>ترانزیستور NPN</td>
+      <td>2N3904</td>
+      <td>۱۰</td>
+      <td></td>
+    </tr>
+    <tr>
     <tr>
       <td>LED matrix</td>
       <td>MAX7219</td>
       <td>۱</td>
       <td><a href="http://shop.aftabrayaneh.com/MAX7219_Dot_Matrix.html">آر</a> <a href="http://microlineic.com/index.php?productID=2012">مل</a></td>
+    </tr>
+    <tr>
+      <td>شیفت‌رجیستر سریال به موازی</td>
+      <td>74HC595</td>
+      <td>۲</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>شیفت‌رجیستر موازی به سریال</td>
+      <td>CD4021B</td>
+      <td>۴</td>
+      <td></td>
     </tr>
       <td>برد بورد کوچک</td>
       <td> Half-size Breadboard</td>
@@ -233,8 +257,9 @@ layout: page
 </table>
 
 \* [آفتاب‌رایانه](http://aftabrayaneh.com) فروشگاه اینترنتی قطعات الکترونیکی در ایران (شیراز) است.  
-\*\* [میکرولاین آی‌سی](http://microlineic.com) فروشگاه اینترنتی قطعات الکترونیکی در ایران (تهران) است.  
-\*\*\* [ایدافروت](https://www.adafruit.com) تولیدکننده و فروشگاه اینترنتی قطعات الکترونیکی در ایالات متحده (نیویورک) است. منبع بسیار خوبی برای دیتاشیت ها، آموزش ها و... است.    
+\*\* [میکرولاین آی‌سی](http://microlineic.com) فروشگاه اینترنتی قطعات الکترونیکی در ایران (تهران، پاساژ عباسیان) است.  
+\*\*\* [جهان‌کیت](http://www.jahankitshop.com/) فروشگاه اینترنتی قطعات الکترونیکی در ایران (تهران، پاساژ امجد) است.  
+\*\*\*\* [ایدافروت](https://www.adafruit.com) تولیدکننده و فروشگاه اینترنتی قطعات الکترونیکی در ایالات متحده (نیویورک) است. منبع بسیار خوبی برای دیتاشیت ها، آموزش ها و... است.  
 
 ## جدول مقاومت ها
 
@@ -263,7 +288,7 @@ layout: page
       <td>قهوه‌ای مشکی قرمز</td>
     </tr>
     <tr>
-      <td>۴.۶ kΩ</td>
+      <td>۴.۷ kΩ</td>
       <td>۲۰</td>
       <td>زرد بنفش قرمز</td>
     </tr>

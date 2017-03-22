@@ -29,7 +29,7 @@ layout: page
       <td>برد بورد</td>
       <td> Breadboard </td>
       <td>۱</td>
-      <td><a href="http://shop.aftabrayaneh.com/Peripherals/Pcb/Breadboard_MB102.html">آر</a> <a href="http://microlineic.com/index.php?productID=882">مل</a> <a href="https://www.adafruit.com/products/239">اف</a><a href="http://www.jahankitshop.com/market/d/6643">جک</a></td>
+      <td><a href="http://shop.aftabrayaneh.com/Peripherals/Pcb/Breadboard_MB102.html">آر</a> <a href="http://microlineic.com/index.php?productID=882">مل</a> <a href="https://www.adafruit.com/products/239">اف</a> <a href="http://www.jahankitshop.com/market/d/6643">جک</a></td>
     </tr>
     <tr>
       <td>بسته سیم بردبورد</td>

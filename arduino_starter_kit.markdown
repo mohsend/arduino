@@ -150,13 +150,13 @@ layout: page
       <td>شیفت‌رجیستر سریال به موازی</td>
       <td>74HC595</td>
       <td>۲</td>
-      <td></td>
+      <td><a href="http://jaamejamelec.ir/index.php?route=product/product&product_id=505">جج</a></td>
     </tr>
     <tr>
       <td>شیفت‌رجیستر موازی به سریال</td>
       <td>CD4021B</td>
       <td>۴</td>
-      <td></td>
+      <td><a href="http://jaamejamelec.ir/index.php?route=product/product&product_id=87&search=4021"> جج </a></td>
     </tr>
       <td>برد بورد کوچک</td>
       <td> Half-size Breadboard</td>

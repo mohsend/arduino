@@ -131,7 +131,7 @@ layout: page
       <td>ترانزیستور PNP</td>
       <td>2N3906</td>
       <td>۱۰</td>
-      <td><a href="http://jaamejamelec.ir/index.php?route=product/product&product_id=2337">جج</a></td>
+      <td><a href="http://jaamejamelec.ir/index.php?route=product/product&product_id=2337">جج*****</a></td>
     </tr>
     <tr>
       <td>ترانزیستور NPN</td>
@@ -260,6 +260,7 @@ layout: page
 \*\* [میکرولاین آی‌سی](http://microlineic.com) فروشگاه اینترنتی قطعات الکترونیکی در ایران (تهران، پاساژ عباسیان) است.  
 \*\*\* [جهان‌کیت](http://www.jahankitshop.com/) فروشگاه اینترنتی قطعات الکترونیکی در ایران (تهران، پاساژ امجد) است.  
 \*\*\*\* [ایدافروت](https://www.adafruit.com) تولیدکننده و فروشگاه اینترنتی قطعات الکترونیکی در ایالات متحده (نیویورک) است. منبع بسیار خوبی برای دیتاشیت ها، آموزش ها و... است.  
+\*\*\*\*\*[جام جم الکترونیک](http://jaamejamelec.ir/) فروشگاه اینترنتی قطعات الکترونیکی در ایران (تهران، پاساژ امجد) است. 
 
 ## جدول مقاومت ها
 

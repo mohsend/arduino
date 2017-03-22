@@ -131,7 +131,7 @@ layout: page
       <td>ترانزیستور PNP</td>
       <td>2N3906</td>
       <td>۱۰</td>
-      <td><a href="http://jaamejamelec.ir/index.php?route=product/product&product_id=2337">جج</a>\*\*\*\*\*</td>
+      <td><a href="http://jaamejamelec.ir/index.php?route=product/product&product_id=2337">جج</a>*****</td>
     </tr>
     <tr>
       <td>ترانزیستور NPN</td>

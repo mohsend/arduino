@@ -29,13 +29,13 @@ layout: page
       <td>برد بورد</td>
       <td> Breadboard </td>
       <td>۱</td>
-      <td><a href="http://shop.aftabrayaneh.com/Peripherals/Pcb/Breadboard_MB102.html">آر</a> <a href="http://microlineic.com/index.php?productID=882">مل</a> <a href="https://www.adafruit.com/products/239">اف</a></td>
+      <td><a href="http://shop.aftabrayaneh.com/Peripherals/Pcb/Breadboard_MB102.html">آر</a> <a href="http://microlineic.com/index.php?productID=882">مل</a> <a href="https://www.adafruit.com/products/239">اف</a>  <a href="http://www.jahankitshop.com/market/d/6643">جک</a></td>
     </tr>
     <tr>
       <td>بسته سیم بردبورد</td>
       <td>Breadboarding Wire Bundle</td>
       <td>۱</td>
-      <td><a href="http://shop.aftabrayaneh.com/breadboard_jumper_wire_kit_140pcs.html">آر</a> <a href="https://www.adafruit.com/products/153">اف</a></td>
+      <td><a href="http://shop.aftabrayaneh.com/Bread_Lines_Cable_Mmc0067__AFTAB.html">آر</a> <a href="https://www.adafruit.com/products/153">اف</a> <a href="http://www.jahankitshop.com/market/d/6647">جک</a></td>
     </tr>
     <tr>
       <td>مقاومت</td>
@@ -89,7 +89,7 @@ layout: page
       <td>صفحه نمایش نوکیا</td>
       <td>Nokia 5110 LCD</td>
       <td>۱</td>
-      <td><a href="http://shop.aftabrayaneh.com/LCD_Monitors/Displays/NOKIA_5110-W_Arduino_LCD.html">آر</a></td>
+      <td><a href="http://shop.aftabrayaneh.com/LCD_Monitors/Displays/NOKIA_5110-W_Arduino_LCD.html">آر</a> <a href="http://www.jahankitshop.com/market/d/6698">جک</a></td>
     </tr>
     <tr>
       <td>سنسور های مختلف</td>
@@ -131,15 +131,14 @@ layout: page
       <td>ترانزیستور PNP</td>
       <td>2N3906</td>
       <td>۱۰</td>
-      <td></td>
+      <td><a href="http://microlineic.com/index.php?productID=345">مل</a></td>
     </tr>
     <tr>
       <td>ترانزیستور NPN</td>
       <td>2N3904</td>
       <td>۱۰</td>
-      <td></td>
+      <td><a href="http://microlineic.com/index.php?productID=351">مل</a></td>
     </tr>
-    <tr>
     <tr>
       <td>LED matrix</td>
       <td>MAX7219</td>
@@ -149,15 +148,16 @@ layout: page
     <tr>
       <td>شیفت‌رجیستر سریال به موازی</td>
       <td>74HC595</td>
-      <td>۲</td>
-      <td></td>
+      <td>۸</td>
+      <td><a href="http://microlineic.com/index.php?productID=1663">مل</a> <a href="http://www.jahankitshop.com/market/d/3890">جک</a></td>
     </tr>
     <tr>
-      <td>شیفت‌رجیستر موازی به سریال</td>
-      <td>CD4021B</td>
+      <td>مولتیپلکسر/دیماکس ۸ کاناله آنالوگ</td>
+      <td>74HC4051</td>
       <td>۴</td>
       <td></td>
     </tr>
+    <tr>
       <td>برد بورد کوچک</td>
       <td> Half-size Breadboard</td>
       <td>۱</td>
@@ -173,19 +173,19 @@ layout: page
       <td>ماژول میکرو اس‌دی</td>
       <td>H5A2</td>
       <td>۱</td>
-      <td><a href="http://shop.aftabrayaneh.com/Micro_SD_TF_Card_Module_H5A2.html">آر</a></td>
+      <td><a href="http://shop.aftabrayaneh.com/Micro_SD_TF_Card_Module_H5A2.html">آر</a> <a href="http://www.jahankitshop.com/market/d/6801">جک</a></td>
     </tr>
     <tr>
       <td>موتور های الکتریکی</td>
       <td> Electric Motors </td>
       <td> – </td>
-      <td> – </td>
+      <td><a href="http://shop.aftabrayaneh.com/Motors_Drivers">آر</a></td>
     </tr>
     <tr>
       <td>ماژول رله پنج ولت</td>
       <td> 5v Relay Module</td>
       <td>۱</td>
-      <td><a href="http://shop.aftabrayaneh.com/2Chanel_5v_relay.html">آر</a> <a href="http://microlineic.com/index.php?productID=2017">مل</a></td>
+      <td><a href="http://shop.aftabrayaneh.com/2Chanel_5v_relay.html">آر</a> <a href="http://microlineic.com/index.php?productID=2017">مل</a> <a href="http://www.jahankitshop.com/market/d/6593">جک</a></td>
     </tr>
     <tr>
       <td>تایمر ۵۵۵</td>
@@ -227,7 +227,7 @@ layout: page
       <td>برد بورد بسیار کوچک</td>
       <td> Tiny Breadboard</td>
       <td>۵</td>
-      <td><a href="http://shop.aftabrayaneh.com/Peripherals/Pcb/Mini_Breadboard_SYB170.html">آر</a> <a href="https://www.adafruit.com/products/65">اف</a></td>
+      <td><a href="http://shop.aftabrayaneh.com/Peripherals/Pcb/Mini_Breadboard_SYB170.html">آر</a> <a href="https://www.adafruit.com/products/65">اف</a> <a href="http://www.jahankitshop.com/market/d/6642">جک</a></td>
     </tr>
     <tr>
       <td>هویه ۴۰وات</td>
@@ -242,16 +242,28 @@ layout: page
       <td><a href="http://shop.aftabrayaneh.com/Peripherals/Pcb/Prototype_PCB_4Size.html">آر</a></td>
     </tr>
     <tr>
+      <td>میکروکنترولر کوچک</td>
+      <td>ATtiny85</td>
+      <td>۱</td>
+      <td><a href="http://shop.aftabrayaneh.com/Peripherals/Pcb/Prototype_PCB_4Size.html">آر</a></td>
+    </tr>
+    <tr>
       <td>ماژول نگهدارنده زمان</td>
       <td>DS1307 RTC Module</td>
       <td>۱</td>
-      <td><a href="http://shop.aftabrayaneh.com/Clock_Time_DS1307.html">آر</a></td>
+      <td><a href="http://shop.aftabrayaneh.com/Clock_Time_DS1307.html">آر</a> <a href="http://www.jahankitshop.com/market/d/6505">جک</a></td>
     </tr>
     <tr>
       <td>جعبه چوبی آردوآینو</td>
       <td> – </td>
       <td>۱</td>
       <td><a href="http://shop.aftabrayaneh.com/Arduino_Boards/Arduino_UNO_Wooden_Case.html">آر</a></td>
+    </tr>
+    <tr>
+      <td>میکروکنترولر با وای‌فای</td>
+      <td>NodeMCU ESP8266</td>
+      <td>۱</td>
+      <td><a href="http://shop.aftabrayaneh.com/Nodemcu_LUA_Esp8266_Wifi_Internet_Development_Board__AFTAB.html">آف</a></td>
     </tr>
   </tbody>
 </table>
@@ -358,7 +370,7 @@ layout: page
 
 ### خازن های الکترولیتی 
 
-دقت داشته باشید که این خازن ها تا ولتاژ خاصی کار میکنند و اگر ولتاژ بیشتری به آن‌ها اعمال شود منفجر میشود. موقع خرید دقت کنید. برای اطمینان ولتاژ ریتینگ ۲۵ ولت یا بیشتر برای کار با آردوآینو کافی است. 
+دقت داشته باشید که این خازن ها تا ولتاژ خاصی کار میکنند و اگر ولتاژ بیشتری به آن‌ها اعمال شود منفجر میشود. موقع خرید دقت کنید. برای اطمینان ولتاژ ریتینگ ۱۶ ولت یا بیشتر برای کار با آردوآینو کافی است. 
 
 <table>
   <thead>

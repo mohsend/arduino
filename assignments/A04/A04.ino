@@ -3,7 +3,7 @@
  *
  * Direct drive a common anode seven segment to do decimal count down
  *
- * https://mehsen.com/arduino
+ * https://mehsen.com/arduino/assignments/
  *
  * To the extent possible under law,
  * Mohsen Dastjerdi Zade (mehsen.com) has waived all copyright
@@ -11,7 +11,7 @@
  * https://creativecommons.org/publicdomain/zero/1.0/
  */
 
-void DisplayDigit(int d) {
+void displayDigit(int d) {
   // seven segment pattern for decimal digits
   const byte digits[10] = {
     0xfc, // 0
@@ -23,7 +23,7 @@ void DisplayDigit(int d) {
     0xbe, // 6
     0xe0, // 7
     0xfe, // 8
-    0xf6 // 9
+    0xf6  // 9
   }
   
   if (d >= 0 && d <= 9) {

@@ -4,7 +4,7 @@
  * Drive a common anode seven segment with a 7447 BCD-to-Decimal decoder
  * to do count up
  *
- * https://mehsen.com/arduino
+ * https://mehsen.com/arduino/assignments/
  *
  * To the extent possible under law,
  * Mohsen Dastjerdi Zade (mehsen.com) has waived all copyright

@@ -3,7 +3,7 @@ title: تمرین ۲ - چشمک زن
 layout: page
 ---
 
-# تمرین دو - چشمک زن
+# {{ page.title }}
 
 ## متن تمرین
 
@@ -19,7 +19,7 @@ layout: page
 
 
 
-## کد برنامه
+## [کد برنامه](A02.ino)
 
 ```c
 {% include_relative A02.ino %}

@@ -3,7 +3,7 @@ title: تمرین ۱ - فلاشر
 layout: page
 ---
 
-# تمرین یک - فلاشر
+# {{ page.title }}
 
 ## متن تمرین
 
@@ -19,7 +19,7 @@ layout: page
 
 
 
-## کد برنامه
+## [کد برنامه](A01.ino)
 ```c
 {% include_relative A01.ino %}
 ```

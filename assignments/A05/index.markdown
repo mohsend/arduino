@@ -3,7 +3,7 @@ title: تمرین پنج - مستقیم شمار
 layout: page
 ---
 
-# تمرین پنج - مستقیم شمار
+# {{ page.title }}
 
 ## متن تمرین
 
@@ -19,7 +19,7 @@ layout: page
 
 
 
-## کد برنامه
+## [کد برنامه](A05.ino)
 
 ```c
 {% include_relative A05.ino %}

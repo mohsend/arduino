@@ -1,7 +1,7 @@
 /*
- * Assignment #02
+ * Assignment #07
  *
- * Blink 8 LEDs connected to PORTD
+ * Direct drive one seven segment to display letters is sequence
  *
  * https://mehsen.com/arduino/assignments/
  *
@@ -13,15 +13,20 @@
 
 // the setup routine runs once when you press reset:
 void setup() {
-  for (int i = 0; i < 8; i++) {
+  for(int i = 0; i < 8; i++)
     pinMode(i, OUTPUT);
-  }
+  
 }
 
 // the loop routine runs over and over again forever:
 void loop() {
-  PORTD = 0x00;
-  delay(1000);
-  PORTD = 0xFF;
-  delay(1000);
+  // Display A
+  PORTD = 0xEE;
+  delay(200);
+  // Display L
+  PORTD = 0x1C;
+  delay(200);
+  // Display I
+  PORTD = 0x0C;
+  delay(200);
 }

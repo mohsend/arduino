@@ -3,7 +3,7 @@
  *
  * Blinks two 4-set LEDs connected to PORTD in succession
  *
- * https://mehsen.com/arduino
+ * https://mehsen.com/arduino/assignments/
  *
  * To the extent possible under law,
  * Mohsen Dastjerdi Zade (mehsen.com) has waived all copyright

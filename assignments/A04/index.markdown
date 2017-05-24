@@ -3,7 +3,7 @@ title: تمرین چهار - معکوس شمار
 layout: page
 ---
 
-# تمرین چهار - معکوس شمار
+# {{ page.title }}
 
 ## متن تمرین
 
@@ -19,7 +19,7 @@ layout: page
 
 
 
-## کد برنامه
+## [کد برنامه](A04.ino)
 
 ```c
 {% include_relative A04.ino %}

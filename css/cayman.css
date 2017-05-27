@@ -243,4 +243,8 @@ a {
   color: #819198; }
 
 .persian {
-  list-style: persian }
+  list-style: persian; }
+
+video {
+  max-width:95%;
+  height:auto; }

@@ -19,7 +19,7 @@ layout: page
 
 ## مدار
 
-<video autoplay loop muted width="754" height="532" style="max-width:95%; height:auto;">
+<video autoplay loop muted playsinline width="754" height="532">
 <source src="video.mp4" type="video/mp4" />
 <img src="picture.jpg" width="754" height="532" />
 </video>

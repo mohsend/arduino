@@ -3,6 +3,12 @@
  *
  * Direct drive one seven segment to display letters is sequence
  *
+ * The circuit:
+ * Connect 'a' of seven segment to pin 7 of arduino
+ * Connect 'b' of seven segment to pin 6 of arduino
+ * ...
+ * Connect 'g' of seven segment to pin 1 of arduino
+ *
  * https://mehsen.com/arduino/assignments/
  *
  * To the extent possible under law,

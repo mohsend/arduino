@@ -3,6 +3,12 @@
  *
  * Direct drive a common anode seven segment to do decimal count down
  *
+ * The circuit:
+ * Connect 'a' of seven segment to pin 7 of arduino
+ * Connect 'b' of seven segment to pin 6 of arduino
+ * ...
+ * Connect 'g' of seven segment to pin 1 of arduino
+ *
  * https://mehsen.com/arduino/assignments/
  *
  * To the extent possible under law,
@@ -24,7 +30,7 @@ void displayDigit(int d) {
     0xe0, // 7
     0xfe, // 8
     0xf6  // 9
-  }
+  };
   
   if (d >= 0 && d <= 9) {
     // if in range display the digit
@@ -37,8 +43,9 @@ void displayDigit(int d) {
 
 // the setup routine runs once when you press reset:
 void setup() {
-  for(int i = 0; i < 8; i++)
+  for(int i = 0; i < 8; i++) {
     pinMode(i, OUTPUT);
+  }
 }
 
 // the loop routine runs over and over again forever:

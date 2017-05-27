@@ -3,6 +3,9 @@
  *
  * Blinks two 4-set LEDs connected to PORTD in succession
  *
+ * The circuit:
+ * Connect 8 LEDs to pins 0 to 7
+ *
  * https://mehsen.com/arduino/assignments/
  *
  * To the extent possible under law,
@@ -13,8 +16,9 @@
 
 // the setup routine runs once when you press reset:
 void setup() {
-  for (int i = 0; i < 8; i++)
+  for (int i = 0; i < 8; i++) {
     pinMode(i, OUTPUT);
+  }
 }
 
 // the loop routine runs over and over again forever:

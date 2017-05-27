@@ -3,6 +3,9 @@
  *
  * Blink 8 LEDs connected to PORTD
  *
+ * The circuit:
+ * Connect 8 LEDs to pins 0 to 7
+ *
  * https://mehsen.com/arduino/assignments/
  *
  * To the extent possible under law,

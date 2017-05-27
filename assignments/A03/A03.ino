@@ -4,6 +4,9 @@
  * Turn on 8 LEDs connected to PORTD in succession,
  * turn all off, repeat
  *
+ * The circuit:
+ * Connect 8 LEDs to pins 0 to 7
+ *
  * https://mehsen.com/arduino/assignments/
  *
  * To the extent possible under law,

@@ -113,6 +113,9 @@ a {
       font-size: 1rem; } }
   .main-content img {
     max-width: 100%; }
+  .main-content video {
+    max-width:100%;
+    height:auto; }
   .main-content h1,
   .main-content h2,
   .main-content h3,
@@ -244,7 +247,3 @@ a {
 
 .persian {
   list-style: persian; }
-
-video {
-  max-width:95%;
-  height:auto; }

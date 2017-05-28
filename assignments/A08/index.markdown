@@ -17,7 +17,10 @@ layout: page
 
 ## مدار
 
-
+<video autoplay="autoplay" loop="loop" width="480" height="270">
+<source src="video.mp4" type="video/mp4" />
+<img src="picture.jpg" width="480" height="270" />
+</video>
 
 ## [کد برنامه](A08.ino)
 

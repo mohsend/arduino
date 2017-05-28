@@ -1,11 +1,10 @@
 /*
- * Assignment #03
+ * Assignment #18
  *
- * Turn on 8 LEDs connected to PORTB in succession,
- * turn all off, repeat
+ * Turn 2 LEDs on with PWM, one should have a shorter duty cycle
  *
  * The circuit:
- * Connect 8 LEDs to pins 0 to 7
+ * Connect 2 LEDs to pins 9 and 10 of arduino
  *
  * https://mehsen.com/arduino/assignments/
  *
@@ -17,16 +16,14 @@
 
 // the setup routine runs once when you press reset:
 void setup() {
-  for (int i = 0; i < 8; i++) {
-    pinMode(i, OUTPUT);
-  }
+  pinMode(9, OUTPUT);
+  pinMode(10, OUTPUT);
+  
+  analogWrite(9, 20);
+  analogWrite(10, 100);
 }
 
 // the loop routine runs over and over again forever:
 void loop() {
-  PORTD = 0;
-  for(int i = 0; i < 8; i++) {
-    digitalWrite(i, HIGH);
-    delay(1000);
-  }
+  
 }

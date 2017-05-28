@@ -4,13 +4,13 @@
  * Single traffic light with one-digit timer
  *
  * The circuit:
- * connect pin 13 of arduino to the red LED
- * connect pin 12 of arduino to the yellow LED
- * connect pin 11 of arduino to the green LED
- * Connect pin 4 of arduino to input A (pin 7) of 7447
- * Connect pin 5 of arduino to input B (pin 1) of 7447
- * Connect pin 6 of arduino to input C (pin 2) of 7447
- * Connect pin 7 of arduino to input D (pin 6) of 7447
+ * connect pin 13 of Arduino to the red LED
+ * connect pin 12 of Arduino to the yellow LED
+ * connect pin 11 of Arduino to the green LED
+ * Connect pin 4 of Arduino to input A (pin 7) of 7447
+ * Connect pin 5 of Arduino to input B (pin 1) of 7447
+ * Connect pin 6 of Arduino to input C (pin 2) of 7447
+ * Connect pin 7 of Arduino to input D (pin 6) of 7447
  * Connect outputs of 7447 to seven segment
  *
  * https://mehsen.com/arduino/assignments/

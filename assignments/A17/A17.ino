@@ -1,11 +1,10 @@
 /*
- * Assignment #03
+ * Assignment #17
  *
- * Turn on 8 LEDs connected to PORTB in succession,
- * turn all off, repeat
+ * Use PWM to control the speed of a DC motor
  *
  * The circuit:
- * Connect 8 LEDs to pins 0 to 7
+ * Connect a transistor (TIP122) to pin 11 and wire it to the DC motor
  *
  * https://mehsen.com/arduino/assignments/
  *
@@ -17,16 +16,15 @@
 
 // the setup routine runs once when you press reset:
 void setup() {
-  for (int i = 0; i < 8; i++) {
-    pinMode(i, OUTPUT);
-  }
+  pinMode(11, OUTPUT);
 }
 
 // the loop routine runs over and over again forever:
 void loop() {
-  PORTD = 0;
-  for(int i = 0; i < 8; i++) {
-    digitalWrite(i, HIGH);
-    delay(1000);
-  }
+  analogWrite(11, 255);
+  delay(3000);
+  analogWrite(11, 127);
+  delay(3000);
+  analogWrite(11, 0);
+  delay(3000);
 }

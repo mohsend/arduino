@@ -25,7 +25,7 @@ void setup() {
   // Define button pins as input with internal pullup resistors
   pinMode(button0, INPUT_PULLUP);
   pinMode(button1, INPUT_PULLUP);
-  // Define seven segment select pins as output
+  // Define motor pins as output
   pinMode(motor0, OUTPUT);
   pinMode(motor1, OUTPUT);
 }
@@ -36,8 +36,13 @@ void loop() {
   // so a button is pressed when its state is low(false)
   if (!digitalRead(button0)) {
     digitalWrite(motor0, HIGH);
+  } else {
+    digitalWrite(motor0, LOW);
   }
-  if (!digitalRead(button0)) {
-    digitalWrite(motor0, HIGH);
+  
+  if (!digitalRead(button1)) {
+    digitalWrite(motor1, HIGH);
+  } else {
+    digitalWrite(motor1, LOW);
   }
 }

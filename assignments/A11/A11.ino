@@ -1,7 +1,7 @@
 /*
- * Assignment #10
+ * Assignment #11
  *
- * A 4-digit seven segment count down (9999 to 0000)
+ * A traffic light with 3-digit seven segment count down timer
  *
  * The circuit:
  * Connect pin 0 of Arduino to input A (pin 7) of 7447
@@ -12,7 +12,9 @@
  * Connect pin 8 of Arduino to common of first seven segment
  * Connect pin 9 of Arduino to common of second seven segment
  * Connect pin 10 of Arduino to common of third seven segment
- * Connect pin 11 of Arduino to common of fourth seven segment
+ * Connect pin A0 of Arduino to the red LED
+ * Connect pin A1 of Arduino to the yellow LED
+ * Connect pin A2 of Arduino to the green LED
  *
  * https://mehsen.com/arduino/assignments/
  *
@@ -27,7 +29,11 @@
 #include <TimerOne.h>
 
 // array to store the pattern of each seven segment digit
-byte ss_digits[4];
+byte ss_digits[3];
+
+const int red_light = A0;
+const int yellow_light = A1;
+const int green_light = A2;
 
 // display number as decimal on 4 seven segments
 void displayDecimal(int number) {
@@ -35,20 +41,19 @@ void displayDecimal(int number) {
   ss_digits[0] = number % 10;
   ss_digits[1] = (number / 10) % 10;
   ss_digits[2] = (number / 100) % 10;
-  ss_digits[3] = (number / 1000) % 10;
 }
 
 // this functions gets called by timer1 interrupt
 void updateDisplay() {
   // show pattern of a digit each time the function runs
   // and light up the corresponding seven segment (multiplexing)
-  static int placeNow = 0;
+  static byte placeNow = 0;
   PORTB = 0x00;
   digitalWrite(placeNow + 8, HIGH);
   PORTD = ss_digits[placeNow];
-  // add 1 to placeNow and keep the 1st, 2nd, 4th bits and clear the rest
-  // this assigns 8, 9, 10, 11 to placeNow each time
-  placeNow = (placeNow + 1) & 3;
+  // add 1 to placeNow if it's less than 2 or set to zero otherwise
+  // this assigns 0, 1, 2 to placeNow each time
+  placeNow = (placeNow < 2) ? (placeNow + 1) : 0;
 }
 
 // the setup routine runs once when you press reset:
@@ -56,16 +61,36 @@ void setup() {
   for(int i = 0; i <= 11; i++) {
     pinMode(i, OUTPUT);
   }
+  pinMode(red_light, OUTPUT);
+  pinMode(yellow_light, OUTPUT);
+  pinMode(green_light, OUTPUT);
   // initialize timer1 and attach timer interrupt
-  Timer1.initialize(5000);
+  Timer1.initialize(4000);
   Timer1.attachInterrupt(updateDisplay);
 }
 
 // the loop routine runs over and over again forever:
 void loop() {
-  // count down from 9999 to 0 and display on seven segments
-  for (int i = 9999; i >= 0; i--) {
+  // start with red light
+  digitalWrite(red_light, HIGH);
+  digitalWrite(yellow_light, LOW);
+  digitalWrite(green_light, LOW);
+  // set count down to 119 go down to 80
+  for (int i = 119; i >= 80; i--) {
     displayDecimal(i);
-    delay(200);
+    delay(1000);
   }
+  // go green
+  digitalWrite(red_light, LOW);
+  digitalWrite(yellow_light, LOW);
+  digitalWrite(green_light, HIGH);
+  // set count down to 24 go down to 0
+  for (int i = 24; i >= 0; i--) {
+    displayDecimal(i);
+    delay(1000);
+  }
+  // go yellow
+  digitalWrite(red_light, LOW);
+  digitalWrite(yellow_light, HIGH);
+  digitalWrite(green_light, LOW);
 }

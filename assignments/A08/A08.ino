@@ -5,6 +5,19 @@
  * with a single 7447 BCD-to-Decimal decoder
  * light each one up when a corresponding button is pressed
  *
+ * The circuit:
+ * Connect pin 0 of Arduino to input A (pin 7) of 7447
+ * Connect pin 1 of Arduino to input B (pin 1) of 7447
+ * Connect pin 2 of Arduino to input C (pin 2) of 7447
+ * Connect pin 3 of Arduino to input D (pin 6) of 7447
+ * Connect outputs of 7447 to seven segments
+ * Connect pin 8 of Arduino to common of first seven segment
+ * Connect pin 9 of Arduino to common of second seven segment
+ * Connect pin 10 of Arduino to common of third seven segment
+ * Connect pin A0 of Arduino to a push-button hooked to ground
+ * Connect pin A1 of Arduino to a push-button hooked to ground
+ * Connect pin A2 of Arduino to a push-button hooked to ground
+ *
  * https://mehsen.com/arduino/assignments/
  *
  * To the extent possible under law,
@@ -25,8 +38,9 @@ const int ssegment2 = 10;
 
 // the setup routine runs once when you press reset:
 void setup() {
-  for(int i = 0; i < 4; i++)
+  for(int i = 0; i < 4; i++) {
     pinMode(i, OUTPUT);
+  }
   // Define button pins as input with internal pullup resistors
   pinMode(button0, INPUT_PULLUP);
   pinMode(button1, INPUT_PULLUP);
@@ -44,25 +58,25 @@ void loop() {
   if (!digitalRead(button0)) {
     // pull the common of seven segment we want to light up low
     // and others high
-    digitalWrite(ssegment0, LOW);
-    digitalWrite(ssegment1, HIGH);
-    digitalWrite(ssegment2, HIGH);
+    digitalWrite(ssegment0, HIGH);
+    digitalWrite(ssegment1, LOW);
+    digitalWrite(ssegment2, LOW);
     // write BCD code for 7447's input
     PORTD = 1;
   } else if (!digitalRead(button1)) {
-    digitalWrite(ssegment0, HIGH);
-    digitalWrite(ssegment1, LOW);
-    digitalWrite(ssegment2, HIGH);
-    PORTD = 2;
-  } else if (!digitalRead(button2)) {
-    digitalWrite(ssegment0, HIGH);
+    digitalWrite(ssegment0, LOW);
     digitalWrite(ssegment1, HIGH);
     digitalWrite(ssegment2, LOW);
+    PORTD = 2;
+  } else if (!digitalRead(button2)) {
+    digitalWrite(ssegment0, LOW);
+    digitalWrite(ssegment1, LOW);
+    digitalWrite(ssegment2, HIGH);
     PORTD = 7;
   } else {
     // turn all seven segments off if no button is pressed
-    digitalWrite(ssegment0, HIGH);
-    digitalWrite(ssegment1, HIGH);
-    digitalWrite(ssegment2, HIGH);
+    digitalWrite(ssegment0, LOW);
+    digitalWrite(ssegment1, LOW);
+    digitalWrite(ssegment2, LOW);
   }
 }

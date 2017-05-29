@@ -27,4 +27,4 @@ Except where otherwise noted,
 [Intro to Arduino](https://github.com/mohsend/arduino) by
 [Mohsen Dastjerdi Zade](https://mehsen.com)
 is licensed under a
-[Creative Commons Attribution-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-sa/4.0/).
+[Creative Commons Attribution4.0 International License](LICENSE.md).

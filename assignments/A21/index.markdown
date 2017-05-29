@@ -1,5 +1,5 @@
 ---
-title: تمرین ۲۱ - ارتباط SPI
+title: تمرین ۲۱ - ارتباط سنکرون
 layout: page
 ---
 
@@ -13,14 +13,23 @@ layout: page
 
 ### بازنویسی شده برای آردواینو UNO
 
-دو برد آردواینو را از طریق واحد SPI شبکه‌بندی کنید به نحوی‌که آردواینوی فرمانده نام کوچک شما را به آردواینوی فرمانبر ارسال نموده و آردواینوی فرمانبر آن را روی LCD نمایش دهد. 
+دو برد آردواینو را از طریق واحد I<sup>2</sup>C شبکه‌بندی کنید به نحوی‌که آردواینوی فرمانده نام کوچک شما را به آردواینوی فرمانبر ارسال نموده و آردواینوی فرمانبر آن را روی LCD نمایش دهد. 
 
 ## مدار
 
+<video autoplay="autoplay" loop="loop" width="480" height="344">
+<source src="video.mp4" type="video/mp4" />
+<img src="picture.jpg" width="480" height="344" />
+</video>
 
+## کد برنامه
 
-## [کد برنامه](A21.ino)
-
+### [فرمانده](A21-master.ino)
 ```c
-{% include_relative A21.ino %}
+{% include_relative A21-master.ino %}
+```
+
+### [فرمانبر](A21-slave.ino)
+```c
+{% include_relative A21-slave.ino %}
 ```

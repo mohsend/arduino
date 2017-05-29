@@ -34,30 +34,18 @@
 // initialize LCD library with the numbers of the interface pins
 LiquidCrystal lcd(12, 11, 5, 4, 3, 2);
 
-String inputString = "";         // a string to hold incoming data
-boolean stringComplete = false;  // whether the string is complete
-
 // the setup routine runs once when you press reset:
 void setup() {
   // initialize serial (UART):
   Serial.begin(9600);
   // set up the LCD's number of columns and rows:
   lcd.begin(16, 2);
-  // reserve 32 bytes for the inputString:
-  inputString.reserve(32);
-  lcd.print("waiting...");
+  lcd.cursor();
 }
 
 // the loop routine runs over and over again forever:
 void loop() {
-  // print the string when the whole string arrives:
-  if (stringComplete) {
-    lcd.setCursor(0,0);
-    lcd.print(inputString);
-    // clear the string:
-    inputString = "";
-    stringComplete = false;
-  }
+  
 }
 
 // SerialEvent occurs whenever a new data comes in the
@@ -66,14 +54,9 @@ void loop() {
 // response.  Multiple bytes of data may be available.
 void serialEvent() {
   while (Serial.available()) {
-    // get the new byte:
-    char inChar = (char)Serial.read();
-    // add it to the inputString:
-    inputString += inChar;
-    // if the incoming character is a newline or zero byte,
-    // set a flag so the main loop can do something about it:
-    if (inChar == '\n' || inChar == '\0') {
-      stringComplete = true;
-    }
+    // receive byte as a character
+    char inChar = Serial.read();
+    // print the character
+    lcd.write(inChar);
   }
 }

@@ -21,8 +21,7 @@
 void setup() {
   // initialize serial (USART):
   Serial.begin(9600);
-  // wait for 2 seconds and send string
-  delay(2000);
+  // send string
   Serial.println("Mohsen Dastjedi Zade");
 }
 

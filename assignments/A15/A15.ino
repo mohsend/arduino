@@ -9,7 +9,6 @@
  * The circuit:
  * DHT11 data pin to pin 8
  * DHT11 VCC to 5V and ground to ground
- * 
  * LCD RS pin to digital pin 12
  * LCD Enable pin to digital pin 11
  * LCD D4 pin to digital pin 5

@@ -25,6 +25,6 @@ void loop() {
   delay(3000);
   analogWrite(11, 127);
   delay(3000);
-  analogWrite(11, 0);
+  analogWrite(11, 20);
   delay(3000);
 }

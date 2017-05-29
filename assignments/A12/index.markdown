@@ -15,6 +15,4 @@ layout: page
 
 ## [کد برنامه](A12.ino)
 
-```c
-{% include_relative A12.ino %}
-```
+هنوز انجام نشده

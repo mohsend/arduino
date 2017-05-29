@@ -89,6 +89,8 @@ void loop() {
     displayDecimal(i);
     delay(1000);
   }
+  // wait for 6 more seconds
+  delay(6000);
   // go yellow
   digitalWrite(red_light, LOW);
   digitalWrite(yellow_light, HIGH);

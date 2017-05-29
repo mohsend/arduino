@@ -17,15 +17,6 @@
  * https://creativecommons.org/publicdomain/zero/1.0/
  */
 
-// include the character LCD library:
-#include <LiquidCrystal.h>
-
-// initialize LCD library with the numbers of the interface pins
-LiquidCrystal lcd(12, 11, 5, 4, 3, 2);
-
-String inputString = "";         // a string to hold incoming data
-boolean stringComplete = false;  // whether the string is complete
-
 // the setup routine runs once when you press reset:
 void setup() {
   // initialize serial (USART):

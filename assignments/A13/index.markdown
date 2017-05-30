@@ -12,8 +12,8 @@ layout: page
 
 ## مدار
 
-![اتصالات ال‌سی‌دی به برد آردواینو - Arduino.cc (CC BY-SA)](LCD_Base_bb_Fritz.png)
-تصویر از [سایت آردواینو](https://www.arduino.cc/en/Tutorial/HelloWorld) ساخته شده توسط [فریتزینگ](http://fritzing.org). [CC BY-SA 3.0](https://www.arduino.cc/en/Main/CopyrightNotice)
+![اتصالات ال‌سی‌دی به برد آردوینو - Arduino.cc (CC BY-SA)](LCD_Base_bb_Fritz.png)
+تصویر از [سایت آردوینو](https://www.arduino.cc/en/Tutorial/HelloWorld) ساخته شده توسط [فریتزینگ](http://fritzing.org). [CC BY-SA 3.0](https://www.arduino.cc/en/Main/CopyrightNotice)
 
 ![تصویر مدار بسته شده](picture.jpg)
 

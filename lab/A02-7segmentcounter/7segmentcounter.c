@@ -1,5 +1,5 @@
 /*
- * 7segment.c
+ * 7segmentcounter.c
  *
  * Created: 10/19/2017 11:22:35 AM
  * Author: Mohsen Dastjerdi Zade

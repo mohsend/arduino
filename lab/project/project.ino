@@ -14,12 +14,12 @@ void setup() {
 
   // Connect to button, resets counter
   pinMode(A0, INPUT_PULLUP);
+  // Connect to button, toggles odd/even 
+  pinMode(A1, INPUT_PULLUP);
   // Connect to button, toggles up/down 
   pinMode(A2, INPUT_PULLUP);
   // Connect to button, toggles 1/2 
   pinMode(A3, INPUT_PULLUP);
-  // Connect to button, toggles odd/even 
-  pinMode(A1, INPUT_PULLUP);
 }
 
 void loop() {
